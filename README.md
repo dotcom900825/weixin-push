@@ -1,4 +1,4 @@
-weixin-push
-===========
 
-模拟后台登录形式推送微信
+# pushwechat
+
+  push wechat
