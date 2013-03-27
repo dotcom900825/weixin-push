@@ -12,7 +12,8 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "jscover": ">=0.2.0"
+    "jscover": ">=0.2.0",
+    "mm": "*"
   },
   "main": "index"
 }
