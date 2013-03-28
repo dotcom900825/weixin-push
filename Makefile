@@ -20,7 +20,8 @@ test: install-test
 
 lib-cov:
 	@rm -rf $@
-	@$(JSCOVERAGE) lib $@
+	@$(JSCOVERAGE) --exclude=lib/translate.js lib $@
+	@cp -rf ./lib/translate.js ./lib-cov/translate.js
 
 test-cov: lib-cov
 	@PUSHWECHAT_COV=1 $(MAKE) test REPORTER=dot
