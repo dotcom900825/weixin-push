@@ -15,5 +15,8 @@
     "jscover": ">=0.2.0",
     "mm": "*"
   },
+  "scripts" : {
+    "test" : "make test"
+  },
   "main": "index"
 }
