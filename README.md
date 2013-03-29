@@ -37,7 +37,9 @@ pusher.getMessage('@help', 10, 1000, function (err, data) {
 
 ## 安装  
 
-`npm install pwechat  `  
+```
+npm install pwechat
+```  
 
 ## Lincense  
 (The MIT License)
