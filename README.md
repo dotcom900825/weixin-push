@@ -1,4 +1,3 @@
-
 pushwechat![travis-ci](https://secure.travis-ci.org/dead-horse/weixin-push.png)
 ====== 
 
@@ -7,8 +6,8 @@ pushwechat![travis-ci](https://secure.travis-ci.org/dead-horse/weixin-push.png)
 ## 用法  
 
 ``` js
-var Pusher = require('pwchat');
-var pusher = Pusher = create('youremail', 'yourpassword');
+var Pusher = require('pwechat');
+var pusher = Pusher.create('youremail', 'yourpassword');
 
 pusher.on('PWwchatError', function (err) {
   console.log(err); //无法登录后台
